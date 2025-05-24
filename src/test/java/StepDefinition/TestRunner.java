@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "src/test/resources/features", 
 					glue = {"StepDefinition" }, 
 					monochrome = true, 
-					tags = "@xml", 
+					tags = "@GET and @POJO",
 					plugin = { "json:target/cucumber.json" })
 
 public class TestRunner {
